@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;91c9b5707a41ef60147a684a61089966",
+  "spider": "./jar/custom_spider.jar;md5;12256c49c78305f2bedfd09b5d786620",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -146,15 +146,6 @@
       ]
     },
     {
-      "key": "熊熊",
-      "name": "熊熊",
-      "type": 1,
-      "api": "https://v.3412.net.cn/macapi.php/provide/vod",
-      "playUrl": "https://player.i597.cc/?url=",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "櫻花",
       "name": "櫻花",
       "type": 3,
@@ -288,7 +279,8 @@
         "hd.lz"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
@@ -298,7 +290,8 @@
         "hd.ffzy"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
